@@ -5,6 +5,7 @@ include("dbcn.php");
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 //print_r($_POST['mobile_no']);
 //$b = $_POST['mobile_no'];echo $b;
 
